@@ -4,8 +4,8 @@ import PropTypes from 'prop-types';
 
 const defaultTitle = 'GithubProfile';
 const defaultDescription = 'A nicer look at your GitHub profile. With charts!';
-const defaultOGURL = ''; // update with deployed version
-const defaultOGImage = ''; // update with deployed version
+const defaultOGURL = 'https://github-profile-iota.vercel.app/';
+const defaultOGImage = 'https://github-profile-iota.vercel.app/static/og.png';
 
 const Head = props => (
   <NextHead>
